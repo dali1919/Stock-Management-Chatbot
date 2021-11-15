@@ -1,0 +1,94 @@
+{
+  "question_about_seedBag_check": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "question_about_paperCup_check": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "question_about_pallet_check": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "question_about_plasticCup_check": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 0.991701244813278,
+    "recall": 1.0,
+    "f1-score": 0.9958333333333333,
+    "support": 239,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 344,
+    "confused_with": {}
+  },
+  "thanks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 41,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 51,
+    "confused_with": {}
+  },
+  "question_about_lid_check": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 41,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 0.9823008849557522,
+    "f1-score": 0.9910714285714286,
+    "support": 113,
+    "confused_with": {
+      "affirm": 2
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 137,
+    "confused_with": {}
+  },
+  "accuracy": 0.9980713596914176,
+  "macro avg": {
+    "precision": 0.999245567710298,
+    "recall": 0.998390989541432,
+    "f1-score": 0.9988095238095238,
+    "support": 1037
+  },
+  "weighted avg": {
+    "precision": 0.9980873650051817,
+    "recall": 0.9980713596914176,
+    "f1-score": 0.9980667676906829,
+    "support": 1037
+  }
+}

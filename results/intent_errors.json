@@ -1,0 +1,18 @@
+[
+  {
+    "text": "👎",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5424858331680298
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5424858331680298
+    }
+  }
+]

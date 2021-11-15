@@ -1,0 +1,20 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Storage Check schema",
+  "required": [
+    "item"
+  ],
+  "properties": {
+    "item": {
+      "$id": "#/properties/item",
+      "type": "string",
+      "title": "The item Schema",
+      "default": "lid",
+      "examples": [
+        "lid"
+      ]
+    }
+  }
+}

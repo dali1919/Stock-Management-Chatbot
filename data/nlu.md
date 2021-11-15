@@ -1,0 +1,1081 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- Howdy!
+- Hallo
+- Good afternoon
+- Namaste
+- Whats up
+- Hiii
+- Hi
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HEY
+- HEllo
+- HI jarvis
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello jarvis
+- Hello!
+- Hey
+- Hey jarvis
+- Hey bot
+- Heya
+- Heylo
+- Hi jarvis
+- Hi jarvis!
+- Hi bot
+- Hi man
+- Hi jarvis..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
+- good moring
+- greet
+- greetings
+- hai
+- hallo
+- hallo jarvis
+- halloo
+- halloooo
+- halo
+- halo jarvis
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello jarvis
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey jarvis
+- hey ther
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, jarvis!
+- heya
+- heyho
+- heyo
+- hhola
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi mrs jarvis
+- hi pal!
+- hi jarvis
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola jarvis
+- jarvis hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
+
+## intent:goodbye
+- No, I am good as of now. Bye
+- Bye
+- Bbye
+- Good Bye
+- see you around
+- see you later
+- Thanks bot. You are so sweet. Byee
+- Ciao
+- Tschüss
+- Dhanyavaad
+- Cciao
+- chciao
+- byeee
+- ciaooo
+- byee
+- See you again
+- adios
+- adios?
+- bye
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- good bye Jarvis bot!
+- good night
+- goodbye
+- goodnight
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
+
+## intent:thanks
+- Thanks
+- Thank you so much
+- I am pleased. Thank You
+- Thank you
+- thank you
+- Good to hear that.
+- thansk
+- Cool. Thanks
+- Great, thanks
+- Thank you jarvis
+- Thank's!
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks jarvis
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for forum link, I'll check it out
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+- no thats it thanks
+
+## intent:affirm
+- Yes.
+- Yes please.
+- Affirmative.
+- Correct.
+- Right.
+- That's right.
+- That's Correct.
+- indeed
+- of course
+- that sounds good
+- OK
+- I understand
+- I got it
+- alright
+- Yes
+- 👍
+- sure
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- nice
+- not bad
+- ofcoure i do
+- ofcourse i do
+- of course i concur
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok jarvis
+- ok, I behave now
+- ok, I understood
+- ok, Jarvis
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you asked me a yes or no question, which i answered with yes
+- you got me, I accept, if you want me to
+- yres
+- ys
+- yup
+- yyeeeh
+- damn that hurts
+
+## intent:deny
+- No
+- Incorrect
+- no
+- incorrect
+- wrong
+- No, that is wrong
+- No, please check again.
+- Negative
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- no thank you
+- I don't need help
+- Haha nothing
+- nothing
+- I dont need it
+- 👎
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never mind
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thanks
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- this is very bad
+- I do not need help installing
+- I don't wanna tell the name of my company
+- no stop
+- stop it, i do not care!!
+- no thats it
+- no thats enough thanks
+
+## intent:question_about_plasticCup_check
+- Do you have cups made out of plastic?
+- Is plastic available?
+- Do you have plastic?
+- Any plastic plastic?
+- Stills plastic?
+- how many plastic cups do u have?
+- how much plastic cups do u have?
+- how much plastic cups?
+- how many plastic cups?
+- how many plastic do u have?
+- how much plastic do u have?
+- how much plastic?
+- how many plastic?
+- plastic
+- plastic?
+- plastic cups
+- plastic cups?
+- plastics
+- plastics?
+- update plastic cups 12 ?
+- update plastic 12 ?
+- add plastic 25 ?
+
+## intent:question_about_paperCup_check
+- Do you have cups made out of paper?
+- Is paper available?
+- Do you have paper?
+- Any paper?
+- Stills paper?
+- how many paper cups do u have?
+- how much paper cups do u have?
+- how much paper cups?
+- how many paper cups?
+- how many paper do u have?
+- how much paper do u have?
+- how much paper?
+- how many paper?
+- paper
+- paper?
+- papers
+- papers?
+- paper cups
+- paper cups?
+- update paper cups 12 ?
+- update paper 12 ?
+- add paper 25 ?
+
+## intent:question_about_pallet_check
+- Do you have pallet?
+- Is pallet available?
+- Any pallet?
+- Stills pallet?
+- how many pallet do u have?
+- how much pallet do u have?
+- how much pallet?
+- how many pallet?
+- pallets
+- pallets?
+- pallet
+- pallet?
+
+## intent:question_about_seedBag_check
+- Do you have seedBag?
+- Is seedBag available?
+- Any seedBag?
+- Stills seedBag?
+- how many seedBag do u have?
+- how much seedBag do u have?
+- how much seedBag?
+- how many seedBag?
+- Stills seedbag?
+- how many seedbag do u have?
+- how much seedbag do u have?
+- how much seedbag?
+- how many seedbag?
+- seedBag
+- seedBag?
+- seedbag
+- seedbag?
+- seedBags
+- seedBags?
+- seedbags
+- seedbags?
+- update seed bag 12 ?
+- update seed 12 ?
+- add seed bags 25 ?
+- how many seeds?
+
+## intent:question_about_lid_check
+- Do you have lid?
+- Is lid available?
+- Any lid?
+- Stills lid?
+- how many lid do u have?
+- how much lid do u have?
+- how much lid?
+- how many lid?
+- Do you have lids?
+- Is lids available?
+- Any lids?
+- Stills lids?
+- how many lids do u have?
+- how much lids do u have?
+- how much lids?
+- how many lids
+- how many lids?
+- lid
+- lids
+- lid?
+- lids?
+- hilf mir beim start
+- tschüssikowski
+- ¿Qué pasa?
+- ça va ?
+- como te llamas
+- wer bist Du?
+- como inicio en jarvis
+- come stai?
+- como estas
+- de donde eres
+- de que lugar eres?
+- epdi iruka
+- eres humana
+- kalhmera jarvis ti kaneis
+- kannst du auch deutsch?
+- kannst du dies auch auf deutsch?
+- oui je besoine de l'aide
+- que puedes hacer?
+- tu parles francais?
+- tudo bom
+
+## intent:question_about_lid_update
+- update lid 12 ?
+- add lid 25 ?
+- update lid 20
+
+## intent:question_about_pallet_update
+- update pallet 12 ?
+- add pallet 25 ?
+- update pallets 20
+
+## intent:out_of_scope
+- I am asking you an out of scope question
+- 4 + 2 = ?
+- After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+- Are you ready?
+- But you're an english site :(
+- Can I ask you questions first?
+- Can I die
+- Can I get a hamburger?
+- Can YouTube talk?
+- Can you call me back ?
+- Can you give me your datacenter's password
+- Can you give me your datacenter's password?
+- Can you make sandwiches?
+- Can you please send me an uber
+- Do I have to accept?
+- Do you know [Kevin Pelton](PERSON)
+- Find nearest pizzahut
+- Have we met before?
+- HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+- How long does it take to set up a jarvis bot?
+- I already told you! I'm a shitmuncher
+- I am User
+- I am an opioid addic
+- I am an opioid addict
+- I am hungry
+- I am trying to build one, and did some research before, but I have not do hand-on work yet
+- I can barely see this white text on light gray background ...
+- I changed my mind
+- I have installed it
+- I ned a GP in 94301
+- I need a GP in 94301
+- I need a girl friend!
+- I need to eat cake
+- I wan to buy a plane
+- I wanna marry you
+- I want a new laptop
+- I want book a hotel
+- I want french cuisine
+- I want pizza
+- I want to die
+- I want to order pizza
+- I want to use pipe
+- I will check
+- I'm a shitmuncher
+- Is jarvis really smart?
+- Is this Goal-Oriented Chatbot?
+- Is today saturday?
+- Mail me the guide
+- Make me a sandwich
+- NLW
+- Nice name
+- Now?
+- Pizza bot
+- Recharge
+- SEL ME SOMETHING
+- The Try it out is not working
+- The weather is good
+- Today
+- Try it out broken
+- What day is it today?
+- What did you eat yesterday?
+- What do you prefer?
+- What is todays date
+- What is your hobbies?
+- What makes you better than a human?
+- What's 1 + 1?
+- What's do YouTube do
+- What's your backend system?
+- Where am I right now?
+- Where am I?
+- Who ?
+- Who are your customers
+- Why don’t you answer?
+- Won't you ask me how I am?
+- You'r blue.
+- [Kristin](PERSON), I want to marry you
+- german?
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- aRE YOU SINGLE
+- again?
+- alexa, order 5 tons of natrium chloride
+- and make chicken noises into the phone
+- are the newsletter worth the subscription?
+- are u facebook
+- are u, facebook?
+- are you single?
+- are you dev?
+- are you human ?
+- are you russian?
+- are you sick
+- are you using jarvis ?
+- are you vegan
+- better than you
+- book a ticket
+- but I just told you that :(
+- but if jarvis is open source why do you have a sales team
+- buy one please
+- buy groceries
+- call me father
+- can we keep chatting?
+- can you book dinner
+- can you cheer me up
+- can you cook dinner
+- can you give me a cup of coffee
+- can you help me with the docs?
+- can you help me with your docs
+- can you help me with your docs?
+- can you learn from our conversation?
+- can you speak about politic ?
+- can you understand ?
+- cannot see
+- chgfhgh
+- marigold ok?
+- colder
+- common, just try
+- connect to alexa
+- cr
+- custom service
+- did i break you
+- dinner
+- do you believe in god?
+- do you have a phone number?
+- do you have your photo?
+- do you know me
+- do you know ras
+- do you liek cheese?
+- do you like football
+- do you like movies
+- do you sell vacuum robots?
+- do you want to marry me?
+- docs
+- doctor
+- everything
+- example of a chatbot
+- genocide
+- get me a club mate
+- github link?
+- give me a girl friend
+- give me food
+- go back
+- google?
+- great, I'd like to buy a house
+- hang on let me find it
+- have you ever seen [Keith Reilly](PERSON)?
+- help with [Alma Abrams](PERSON)
+- help with my life
+- hey little mama let em whisper in your ear
+- hey, I contacted you a couple of days ago but didn't get any response, any news?
+- how
+- how about NYC
+- how are [Alicia Jackson](PERSON)'s cats doing?
+- how are the kids
+- how can i get them?
+- how can i test this
+- how come you say ok ?
+- how come?
+- how do you learn
+- how good is jarvis
+- how it compares to alexa
+- how long have you been online?
+- how long will the next version will launch?
+- how many lines of codes
+- how much is 10 + 89 ?
+- how much is 10 + 89
+- how to get jarvis studio
+- how to go to newyork ?
+- i am hungry
+- i am hungry, what should i do?
+- i am not a developer but need this for business
+- i am qq
+- i can't deal with _your_ request
+- i do not care how are you
+- i hope you will be better
+- i immediately need help with implementing the coolest bot you can imagine
+- i m looking for job
+- i told you already
+- i wanna party
+- i want a non dripping ice cream
+- i want caffe
+- i want food
+- i want good flycam
+- i want more of you in my life!
+- i want pizza
+- i want pizza!!
+- i want to book a hotel
+- i want to buy a roomba for my grandson
+- i want to eat
+- i want to find new friends
+- i want to find out what you can build with jarvis
+- i want to fly
+- i want to grab lunch
+- i want to know current situtation in pakistan
+- i want to order a pizza
+- i want to see your happy customers
+- i will tame a mouse for you
+- is [John Lewis](PERSON) still married to you
+- is it a wasteland full of broken robot parts?
+- is it allow to
+- is jarvis a studio?
+- is jarvis any good
+- is that any of your business
+- isn't the newsletter just spam?
+- it's a pity
+- i´m hungry
+- license
+- ljljl
+- lunch
+- lunch??
+- machine learning
+- mail me the steps
+- mascot means?
+- more
+- mountain
+- my name k
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- offer me lunch
+- oh my god, not again!
+- oh wait i gave you my work email address can i change it?
+- ok one then
+- on wiche nlp based system are you build?
+- only that?
+- order good
+- order pizza
+- personal or work?
+- pizza
+- please help with my ice cream it's dripping
+- please hjave lunchj
+- please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+- please play music
+- jarvis topics
+- really? you're so touchy?
+- refresh
+- region with no. of records
+- remember my name
+- search wikipedia
+- shitmuncher
+- show me a picture of a chicken
+- silly bot
+- sing me a song
+- so, I'm helping right now to training you?
+- some thing else
+- someone call the police i think the bot died
+- sorry, i cannot rephrase
+- sudo make me a sandwich
+- tell me about yourself
+- tell me more about next best action
+- that doesn't sound like a joke
+- that link doesn't work!
+- the one that is better than you
+- tricked  ya
+- turn off my stove
+- umm
+- wait a bit i am still reading
+- what about wheather
+- what are contextual AI assistants and how different are they from chatbots?
+- what are you doing now?
+- what are your uses for universities
+- what did you eat for lunch?
+- what do oyu think about siri?
+- what do you think abou siri?
+- what do you think about [Stanley Ramirez](PERSON)?
+- what do you think of alexa
+- what does your soul feel my friend
+- what doing
+- what else?
+- what films do you like
+- what i do after cd starter-pack-jarvis-stack?
+- what is a discourse?
+- what is a mascot
+- what is adlingo
+- what is differance between bot and mascot?
+- what is evolution ?
+- what is google rcs
+- what is machine learning
+- what is nice?
+- what is the capital of delhi
+- what is the capital of india
+- what is the current petrol price
+- what is the day ?
+- what is the real use case where we can use this one
+- what is your address?
+- what is your purpose
+- what lnu mean?
+- what the latest news ?
+- what you ate today?
+- what's 5 + 5
+- what's a newsletter?
+- what's gingerale
+- what's your wife doing this weekend
+- what?
+- whats that
+- whats the sign
+- when is the next train is coming?
+- where do i get install files for mac?
+- where is Oslo?
+- where is mexico?
+- wheres the party?
+- which city are you talking about?
+- which email
+- which email should i send to ?
+- which file is created first while developing chat bot
+- which is the LNU asynchronism ?
+- which kind
+- who are the engineers at jarvis?
+- who are they?
+- who is [Sharon Zeches](PERSON)
+- who is the MD of samsung bangalore ?
+- who is the president of india ?
+- who is your favourite robot?
+- who let the dog out
+- who was hitler
+- who will anser my email?
+- who's Bill Gates?
+- whta you think about gdpr?
+- why
+- why its called jarvis ?
+- will u kill me
+- will u kill me?
+- winter is already leaving
+- with you recommend me?
+- would you like some water
+- yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+- you already have that
+- you can learn how to make a coffe
+- you have children?
+- you have job opening
+- you lock sweety
+- you should learn to count
+- you will know it from the single red rose it carries between its teeth
+- you're a woman
+- ı am learning python
+- Not my query
+- zez
+- jdjdjd
+- awqerytuilkn mn
+- 2qwerfjbsxjs
+- jajajajaja
+- kahkjhfhjv
+- zfnmbiutydhgjbm,nas
+- cviavsj,dswjasoiasad
+- mjijuhvdytewuqsusgci
+- wqertgdsjbcjsodlsnc
+- scjhxousdjcxlfds
+- cxygcxkshdlsd
+
+## intent:question_about_seedBag_update
+- update seedbags 10

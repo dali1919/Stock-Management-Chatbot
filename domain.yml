@@ -1,0 +1,82 @@
+actions:
+- action_lid_check
+- action_lid_update
+- action_pallet_check
+- action_pallet_update
+- action_paperCup_check
+- action_paperCup_update
+- action_plasticCup_check
+- action_plasticCup_update
+- action_seedBag_check
+- action_seedBag_update
+- utter_affirm
+- utter_cheer_up
+- utter_deny_response
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_out_of_scope
+- utter_out_of_scope/non_english
+- utter_thanks
+intents:
+- greet
+- question_about_lid_update
+- question_about_seedBag_update
+- question_about_lid_check
+- question_about_pallet_update
+- question_about_seedBag_check
+- question_about_pallet_check
+- goodbye
+- question_about_plasticCup_check
+- question_about_paperCup_check
+- question_about_plasticCup_update
+- question_about_paperCup_update
+- out_of_scope
+- out_of_scope/non_english
+- thanks
+- affirm
+- deny
+- start
+responses:
+  utter_affirm:
+  - text: Good! tell me what do you want to know about?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_deny_response:
+  - text: No problem!! You know where to find me when you are ready to know about
+      storage. Have a good day!
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: I am a bot designed to inform you about items storage( lids, paper cups,
+      plastic cups, seed bags, pallets). Would you like to know the amount of one
+      of them?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_out_of_scope:
+  - text: Sorry I can´t handel this request
+  utter_out_of_scope/non_english:
+  - text: Sorry I just understand english
+  utter_thanks:
+  - text: you are welcome
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  lid:
+    type: text
+  pallet:
+    type: text
+  paperCup:
+    type: text
+  plasticCup:
+    type: text
+  seedBags:
+    type: text

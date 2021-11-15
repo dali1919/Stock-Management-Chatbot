@@ -1,0 +1,4 @@
+rasa==1.8.1
+rasa[spacy]
+redis
+rasa-sdk

@@ -1,0 +1,1257 @@
+## say goodbye
+* goodbye
+  - utter_goodbye
+## Full path for deny
+* greet OR start
+    - utter_greet
+* deny
+    - utter_goodbye
+    - action_restart
+## greet + plastic cups
+* greet OR start
+  - utter_greet
+> check_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups
+> check_greet
+* affirm 
+  - utter_affirm
+> check_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet
+> check_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye
+## greet + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye  
+## greet + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye  
+## greet + plastic cups + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet +  lid + paper cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet +  lid + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet +  pallet + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye
+  ## greet + paper cups + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + paper cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedbag + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye  
+## greet + paper cups + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedbag + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye  
+## greet + lid + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedbag + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye  
+## greet + pallet + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedbag + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye  
+## greet + plastic cups + paper cups + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + lid + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + plastic cups + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + paper cups + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid  + plastic cups + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + paper cups + seedbag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + seedBag + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + plastic cups + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedbag + paper cups + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + seedBag  + plastic cups + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + paper cups + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + pallet + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + plastic cups + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + paper cups + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + plastic cups + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + paper cups + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + pallet + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + lid + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + paper cups + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + plastic cups + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + pallet + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + lid + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + plastic cups + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + seedBag + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + pallet + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag + lid + pallet
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + seedbag + lid
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + seedBag
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + seedBag + pallet + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + pallet  + lid + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag  + lid + pallet + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + seedbag + lid + paper cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + seedBag + paper cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + seedBag + paper cups + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + pallet + paper cups + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag  + lid + paper cups + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + seedbag + paper cups + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + paper cups  + seedBag 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + paper cups + seedBag  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + paper cups + pallet  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag + paper cups + lid  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + paper cups + seedbag  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet + paper cups + lid  + seedBag 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + lid  + seedBag  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + seedBag + pallet  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + pseedBag + lid  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + paper cups + pallet + seedbag  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + paper cups + pallet  + lid  + seedBag 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + seedBag + pallet + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + pallet  + lid + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag  + lid + pallet + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + seedbag + lid + plastic cups
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + seedBag + plastic cups 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + seedBag + plastic cups + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + pallet + plastic cups + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag  + lid + plastic cups + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + seedbag + plastic cups + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet  + lid + plastic cups  + seedBag 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* goodbye 
+  - utter_goodbye 
+## greet + lid + plastic cups + seedBag  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_lid_check
+  - action_lid_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + seedBag + plastic cups + pallet  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+## greet + pseedBag + plastic cups + lid  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* goodbye 
+  - utter_goodbye 
+## greet + pallet + plastic cups + seedbag  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* goodbye 
+  - utter_goodbye 
+  ## greet + pallet + plastic cups + lid  + seedBag 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* thanks
+  - utter_thanks
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + lid  + seedBag  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* thanks
+  - utter_thanks
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + seedBag + pallet  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* thanks
+  - utter_thanks
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + pseedBag + lid  + pallet 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_pallet_check
+  - action_pallet_check
+* thanks
+  - utter_thanks
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + pallet + seedbag  + lid 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_paperCup_check
+  - action_paperCup_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* question_about_lid_check
+  - action_lid_check
+* thanks
+  - utter_thanks
+* goodbye 
+  - utter_goodbye 
+## greet + plastic cups + pallet  + lid  + seedBag 
+* greet 
+  - utter_greet
+* affirm 
+  - utter_affirm
+* question_about_plasticCup_check
+  - action_plasticCup_check
+* question_about_pallet_check
+  - action_pallet_check
+* question_about_lid_check
+  - action_lid_check
+* question_about_seedBag_check
+  - action_seedBag_check
+* thanks
+  - utter_thanks
+* goodbye 
+  - utter_goodbye 
+
